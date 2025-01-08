@@ -22,17 +22,39 @@
       font-size: 20px;
       font-weight: bold;
     }
+    .navbar ul {
+      display: flex;
+      list-style: none;
+      gap: 10px;
+    }
+    .navbar ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: background-color 0.3s;
+    }
+
+    .navbar ul li a:hover {
+      background-color: #555;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+   
+
+
 
 </style>
 <body>
     <div class="navbar">
     <div class="logo">CakeStore</div>
-    <div >Home</div>
-    <div>Cakes</div>
-    <div>Pastries</div>
-    <div>AboutUs</div>
-    <div>ContactUs</div>
-    </div>
+
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="cake.html">Cakes</a></li>
+      <li><a href="pastry.html">Pastries</a></li>
+      <li><a href="about.html">AboutUS</a></li>
+      <li><a href="contact.html">ContactUS</a></li>
+    </ul>
    
     
 </body>
